@@ -1,0 +1,570 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: #30363D;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 75%;
+}
+
+p {
+    font-family: 'Seravek';
+    font-weight: 300;
+    font-size: 18px;
+    color: #D3D3D3;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+.fas {
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.33333em;
+}
+
+.komentaru-skaits .fas {
+    -webkit-text-fill-color: unset;
+    font-size: unset;
+    margin: 0 10px 0 0;
+}
+
+.far {
+    margin: 0 10px 0 0;
+}
+
+.fab {
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.33333em;
+}
+
+.socialie-tikli .fab {
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.3em;
+    margin: 0 15px 0 15px;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background: #3c444c;
+    box-shadow: 0 0 10px #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.col-1 {
+    display: flex;
+    width: 30%;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo img {
+    display: flex;
+    width: 75%;
+}
+
+.col-2 {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.col-2 .nav-links {
+    display: flex;
+    width: 90%;
+    list-style-type: none;
+    padding-left: 0;
+    justify-content: flex-end;
+}
+
+.col-2 .nav-links li {
+    display: flex;
+    width: auto;
+    padding: 0 0 0 45px;
+}
+
+.nav-links li a {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: #D3D3D3;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.nav-links li a:hover {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.nav-links li a.active {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.nav-links li a::after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    transition: width .5s ease-in-out;
+    bottom: -2px;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.nav-links li a.active:after {
+    width: 100%;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+#jaunumi {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 100px;
+    background: #3c444c;
+}
+
+.reverse {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.post {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.onepost {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-button {
+    border-radius: 18px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    border: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    width: 50%;
+}
+
+.image img {
+    display: flex;
+    width: 100%;
+}
+
+#footer-1 {
+    display: flex;
+    width: 100%;
+    background: #30363D;
+    padding-bottom: 20px;
+}
+
+.col-3 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3 .nav-links {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+}
+
+.col-3 .nav-links li {
+    display: flex;
+    width: auto;
+    padding: 0 0 0 25px;
+}
+
+.col-4 {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login-button {
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;
+    padding: 0px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.register-button {
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    display: flex;
+    width: 150px;
+    height: 35px;
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    border: 0px;
+    padding: 0px;
+    margin-right: 85px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#footer-2 {
+    display: flex;
+    width: 100%;
+    background: #3c444c;
+    align-items: center;
+}
+
+.col-5 {
+    display: flex;
+    width: 33.3%;
+    font-family: 'Seravek';
+    font-weight: 300;
+    color: #D3D3D3;
+    justify-content: center;
+}
+
+.col-6 {
+    display: flex;
+    width: 33.3%;
+    justify-content: center;
+}
+
+.footerlogo {
+    display: flex;
+    width: 20%;
+    height: auto;
+}
+
+.footerlogo img {
+    display: flex;
+    width: 100%;
+}
+
+.col-7 {
+    display: flex;
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-7 a {
+    display: flex;
+    width: auto;
+    padding: 0 0 0 15px;
+}
+
+#virsraksts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#virsraksts h1 {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 72px;
+    background: none;
+    text-transform: none;
+    -webkit-text-fill-color: #fff;
+}
+
+#post {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosaukums {
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+
+.nosaukums h2, .pievienot-komentaru h2, .koment-1 h2 {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    font-size: 28px;
+    text-align: start;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+.datums-komentari {
+    display: flex;
+    width: 85%;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 0 10px 0;
+}
+
+.datums {
+    margin: 0 55px 0 0;
+}
+
+.attels {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.attels img {
+    display: flex;
+    width: 85%;
+}
+
+.teksts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #3c444c;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.teksts p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    color: #D3D3D3;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 85%;
+}
+
+.komentari {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    background: #3c444c;
+    margin-bottom: 75px;
+    padding-bottom: 75px;
+}
+
+.socialie-tikli {
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+
+.pievienot-komentaru {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.pievienot-komentaru h2 {
+    margin: 10px 0;
+}
+
+textarea {
+    resize: none;
+    height: 125px;
+    padding: 10px 0 0 25px;
+    margin-bottom: 5px;
+}
+
+::placeholder {
+    font-family: 'Montserrat';
+    color: rgb(190, 189, 189);
+}
+
+.publicet-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 12px 0 30px 0;
+}
+
+.publicet-button1 {
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    display: flex;
+    width: 150px;
+    height: 35px;
+    background: -webkit-linear-gradient(45deg, rgba(242, 122, 84, 1), rgba(161, 84, 242, 1));
+    border: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.koment-1 {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+.koment-1-top {
+    display: flex;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.foto img {
+    display: flex;
+    height: 80%;
+}
+
+.vards-uzvards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    color: #fff;
+    font-size: 18.5px;
+    font-family: 'Montserrat';
+}
+
+.koment-1 h2 {
+    margin: 0;
+}
+
+.komentara-teksts {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 30px 0;
+}
+
+.komentara-teksts1 {
+    display: flex;
+    width: 85%;
+    height: 75px;
+    background: #30363D;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.komentara-teksts2 {
+    padding: 15px 0 0 25px;
+}
